@@ -5,13 +5,13 @@ class Header extends Component {
 
     render () {
         return (
-            <header className='container'>
+            <div className='container'>
                 <ul className='menu main-width'>
                     <li className='menu__element'>START</li>
                     <li className='menu__element'>O NAS</li>
                     <li className='menu__element'>KONTAKT</li>
                 </ul>
-            </header>
+            </div>
         )
     }
 }
