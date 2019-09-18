@@ -1,35 +1,11 @@
-@import "../../utils/variables";
 @import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
 
 .container {
     width: 100%;
     font-family: 'Manjari', 'Open Sans', sans-serif;
     font-weight: bold;
-    height: 700px;
-    background-image: url('../../images/gray-2158653_1280.jpg');
+    height: 900px;
+    background-image: url('../../images/gray-2158653_653.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-
-    .main-width {
-        width: $main-width;
-        margin: 0 auto;
-    }
-
-    .menu {
-        width: 1000px;
-        height: 50px;
-        display: flex;
-        justify-content: flex-end;
-
-        &__element {
-            list-style: none;
-            cursor: pointer;
-            padding-left: 40px;
-            margin-top: 17.5px;
-
-            &:hover {
-                color: white;
-            }
-        }
-    }
+    background-size: contain;
 }
