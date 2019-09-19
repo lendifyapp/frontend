@@ -7,7 +7,7 @@ class Menu extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isClicked: false
+            isClicked: true
         }
     }
 
@@ -36,13 +36,14 @@ class Menu extends Component {
                     />
                 }
                 <div
-                    className={
+                   className={
                         isClicked ? 'menu-visible' : 'menu-hidden'
                     }
                 >
                     <ul className='menu'>
                         <li className='menu__element'>START</li>
                         <li className='menu__element'>O NAS</li>
+                        <li className='menu__element'>APLIKACJA</li>
                         <li className='menu__element'>KONTAKT</li>
                     </ul>
                 </div>
