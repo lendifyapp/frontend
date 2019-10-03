@@ -8,8 +8,10 @@ class Header extends Component {
     render () {
         return (
             <div className='container'>
-                <Menu />
-                <Logo />
+                <div className='header-background'>
+                    <Menu />
+                    <Logo />
+                </div>
             </div>
         )
     }

@@ -4,8 +4,21 @@
     width: 100%;
     font-family: 'Manjari', 'Open Sans', sans-serif;
     font-weight: bold;
-    height: 700px;
-    background-image: url('../../images/gray-2158653_653.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    height: 300px;
+
+    @media screen and (min-width: 500px) {
+        height: 700px;
+    }
+
+    .header-background {
+        background-image: url('../../images/gray-2158653_653.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+
+        @media screen and (min-width: 500px) {
+            height: 700px;
+        }
+
+    }
 }

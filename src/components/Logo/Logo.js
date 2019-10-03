@@ -7,7 +7,6 @@ class Logo extends Component {
         return (
             <div className='logo'>
                 <p className='logo__text'>LENDIFY - simplify your life</p>
-                
             </div>
         )
     }
